@@ -1,0 +1,67 @@
+.adres-list{
+    margin-bottom: 9px;
+  }
+  .logo-fot,
+  .logo-foot {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+      letter-spacing: 0.03em;
+     
+  }
+  .adress {
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .section-comand {
+    background: #f5f4fa;
+    padding-bottom: 94px;
+   padding-top: 94px;
+   
+  }
+  
+  
+  /*адреса*/
+  .web-color-b {
+    color: #ffffff;
+  }
+  .mail,
+  .telephone {
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition-property:color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+   .activ :hover,
+  .activ :focus {
+    color: var(--accent-color); 
+  }
+  .mail :focus,
+  .telephone :hover,
+  .telephone :focus {
+    color: var(--accent-color)
+  } 
+  .footer-ul{
+    padding: 0px;
+    padding-bottom: 0px;
+  margin-bottom: 0px;
+  }
+  .footer-ul :last-child{
+    margin: 0px;
+  }
+  .adres-foot {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+     letter-spacing: 0.03em;
+    /* padding-bottom: 60px; */
+  }
