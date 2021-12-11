@@ -132,3 +132,11 @@
     width: 10px;
     /* margin-right: 10px; */
     }
+
+    .container-header__div-hidden{
+        @media  screen and(max-width: 480px) {
+            width: 480px;
+            opacity: 0;
+            max-width: 770px;
+            }
+    }

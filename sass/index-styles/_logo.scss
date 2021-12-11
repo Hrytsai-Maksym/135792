@@ -1,7 +1,15 @@
 .header__logo {
     @media  screen and(min-width: 480px) {
         width: 480px;
+        max-width: 767px;
         }
+    @media  screen and(min-width: 768px) {
+        width: 768px;
+        max-width: 1199px;
+        }
+    @media  screen and(min-width: 1200px) {
+                width: 1200px;
+                }
     font-style: normal;
     font-family: Raleway;
     font-size: 26px;
