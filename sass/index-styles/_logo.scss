@@ -1,55 +1,33 @@
 .header__logo {
-    @media screen and(min-width:480px) {
-        width: 480px;
-        
-    }
-    font-style: normal;
+        font-style: normal;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     /* identical to box height */
     line-height: 1.19;
     letter-spacing: 0.03em;
-    }
-
-.logo__color {
     @media screen and(min-width:480px) {
         width: 480px;
-        
-    }
-    color: #2196f3;
+        font-size: 24px;
+    line-height: 1.16;
+}
     }
 
-    .logo__color-a,
-    .web-color-a {
+    .logo__color {
+        color: #2196f3;
         @media screen and(min-width:480px) {
-            width: 480px;
-            
-        }
-    color: #000000;
+                    width: 480px;
+        }}
+
+        .logo__color-a,
+        .web-color-a {
+        color: #000000;
+        @media screen and(min-width:480px) {
+            width: 480px;}
     }
 
-.footer__web-color-b {
-    @media screen and(min-width:480px) {
-        width: 480px;
-        
-    }
+    .footer__web-color-b {
         color: #ffffff;
-      }
-      .nav__hidden{
-        @media screen and(min-width:0px) {
-            max-width: 767px;
-            opacity: 0;
-            background-color: #2196f3;
-        }
-        @media screen and(min-width:768px) {
-            width: 768px;
-            background-color: #222;
-            opacity: 1;
-        }
-        @media screen and(min-width:1000px) {
-            width: 1200px;
-            background-color: aqua;
-            opacity: 1;
-        }
+        @media screen and(min-width:480px) {
+            width: 480px;}
       }
