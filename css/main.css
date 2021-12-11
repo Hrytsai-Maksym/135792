@@ -446,6 +446,12 @@ ul {
   color: #212121;
 }
 
+@media screen and (min-width: 480px) {
+  .header {
+    width: 480px;
+  }
+}
+
 .header__navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -595,8 +601,20 @@ ul {
   letter-spacing: 0.03em;
 }
 
+@media screen and (min-width: 480px) {
+  .header__logo {
+    width: 480px;
+  }
+}
+
 .logo__color {
   color: #2196f3;
+}
+
+@media screen and (min-width: 480px) {
+  .logo__color {
+    width: 480px;
+  }
 }
 
 .logo__color-a,
@@ -604,8 +622,21 @@ ul {
   color: #000000;
 }
 
+@media screen and (min-width: 480px) {
+  .logo__color-a,
+  .web-color-a {
+    width: 480px;
+  }
+}
+
 .footer__web-color-b {
   color: #ffffff;
+}
+
+@media screen and (min-width: 480px) {
+  .footer__web-color-b {
+    width: 480px;
+  }
 }
 
 .section-advantages__hide {

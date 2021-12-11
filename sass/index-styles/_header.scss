@@ -1,7 +1,8 @@
 
 .header{
-  
-    
+    @media  screen and(min-width: 480px) {
+        width: 480px;
+        }
     background: #ffffff;
     color: $prymery-text-color;
     }

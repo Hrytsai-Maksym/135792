@@ -1,4 +1,7 @@
 .header__logo {
+    @media  screen and(min-width: 480px) {
+        width: 480px;
+        }
     font-style: normal;
     font-family: Raleway;
     font-size: 26px;
@@ -9,14 +12,23 @@
     }
 
 .logo__color {
+    @media  screen and(min-width: 480px) {
+        width: 480px;
+        }
     color: #2196f3;
     }
 
     .logo__color-a,
     .web-color-a {
+        @media  screen and(min-width: 480px) {
+            width: 480px;
+            }
     color: #000000;
     }
 
 .footer__web-color-b {
+    @media  screen and(min-width: 480px) {
+        width: 480px;
+        }
         color: #ffffff;
       }
