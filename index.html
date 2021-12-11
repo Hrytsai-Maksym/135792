@@ -12,43 +12,66 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link
+     li
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/maim.min.css" />
-  </head>
+     </head>
   <body class="body">
     <!--golova-->
     <header class="header">
       <div class="container-header">
-        <nav class="navigation">
-          <a class="logo" href="index.html"
-            ><span class="web_color">Web</span
-            ><span class="web-color-a">Studio</span></a
-          >
-         
-          <ul class="navig_sait list">
-            <li class="head border-a"><a href="./index.html" class="navig-sait current">Студия</a></li>
-            <li class="head "><a href="./portfolio.html" class="navig-sait">Портфолио</a></li>
-            <li class="head"><a href="#" class="navig-sait">Контакты</a></li>
+        <!-- class="container-header" -->
+        <nav class="header__navigation">
+          <!-- class="navigation" -->
+          <a class="header__logo" href="index.html">
+            <!-- class="logo" -->
+            <span class="logo__color">Web</span>
+            <!-- class="web_color" -->
+            <span class="logo__color-a">Studio</span></a>
+            <!-- class="web-color-a" -->
+             <ul class="header__navigation-list list">
+              <!-- class="navig_sait list" -->
+            <li class="navigation-list__item border-a">
+              <!-- class="head border-a" -->
+              <a href="./index.html" class="navigation-list__link current">Студия</a>
+              <!-- class="navig-sait current" -->
+            </li>
+            <li class="navigation-list__item ">
+              <!-- class="head " -->
+              <a href="./portfolio.html" class="navigation-list__link">Портфолио</a>
+            <!-- class="navig-sait" -->
+            </li>
+            <li class="navigation-list__item">
+              <!-- class="head " -->
+              <a href="#" class="navigation-list__link">Контакты</a>
+            <!-- class="navig-sait" -->
+            </li>
           </ul>
         
-          <ul class="contakts list">
-            <div class="mail-phone">
-            <li class="contakt">
+          <ul class="header-contakts__list list">
+            <!-- class="contakts list" -->
+            <div class="contakts__wrapper">
+              <!-- class="mail-phone" -->
+            <li class="header-contakts__contakt-item">
+              <!-- class="contakt" -->
               <a  href="info@devstudio.com">
                 <svg class="head-svg-mail">
+                  <!-- class="head-svg-mail" -->
                   <use href="./image/symbol-defs-phone-mail.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a>
             </li></div>
-            <div class="mail-phone">
-              <li class="contakt">
+            <div class="contakts__wrapper">
+              <!-- class="mail-phone" -->
+              <li class="header-contakts__contakt-item">
+                <!-- class="contakt" -->
               <a href=":tel:+380961111111">
                 <svg class="head-svg-phone">
+                  <!-- class="head-svg-phone" -->
                   <use href="./image/symbol-defs-phone-mail.svg#icon-smartphone"></use>
                 </svg>
                 +38 096 111 11 11</a>
@@ -59,14 +82,19 @@
     </header>
     <main>
       <!--секция с фоновым рисунком-->
-      <div class="section-hero">
-        <section class="name backraund-image">
-          <div class="container-name">
-            <h1 class="name_title">
+      <div class="section-hero!!">
+                <!-- class="section-hero" -->
+        <section class="name section-hero">
+          <!-- class="name backraund-image" -->
+          <div class="container__section-hero">
+            <!-- class="container-name" -->
+            <h1 class="section-hero__title-hero">
+              <!-- class="name_title" -->
               Эфективные решения <br />
               для вашего бизнеса
             </h1>
-            <button data-modal-open class="button" type="button">Заказать услугу</button>
+            <button data-modal-open class="section-hero__button" type="button">Заказать услугу</button>
+            <!-- class="button" -->
           </div>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal containre-backdrop">
@@ -76,12 +104,13 @@
               </svg></button>
                             <!-- Модальное окно -->
               <div class="modal-div">
-                <h2 class="modal-h2">Оставьте свои данные, мы вам перезвоним</h2>
-             
+                <h2 class="modal__h2">Оставьте свои данные, мы вам перезвоним</h2>
+                <!-- class="modal-h2" -->
                 <form autocomplete="on">
                 
 
                 <div class="form-grup-name">
+                  <!-- class="form-grup-name" -->
                   <label class="modal-name" 
                > <span class="span-label" >Имя</span><input  type="text" 
                class="input-modal"
@@ -128,7 +157,7 @@
                 <input class="checkbox-modal" type="checkbox" 
                 name="" id="politika">
                 Соглашаюсь с рассылкой и принимаю
-                <a href="#"><Span class="contract"> Условия договора</Span> </a>
+                <a href="#"><Span class="contract"> Условия договора</Span></a>
                 <span class="span-checkbox"></span>
               </label>
               </div>
@@ -140,55 +169,79 @@
         </section>
       </div>
       <!--преимущиства-->
-      <section class="section">
-        <div class="container-benefits">
-          <h2 class="hide">преимущества</h2>
+          <section class="section-advantages">
+        <!-- class="section" -->
+        <div class="container__section-advantages">
+          <!-- class="container-benefits" -->
+          <h2 class="section-advantages__hide">преимущества</h2>
+          <!-- class="hide" -->
           <!--скрыть заголовок-->
-          <ul class="Benefits-list list">
-            <li class="list-benefits">
-              <div class="benefits-list-div">
-                <svg class="benefits-list-div-svg">
+          <ul class="section-advantages__list list">
+            <!-- class="Benefits-list list" -->
+            <li class="section-advantages__item">
+              <!-- class="list-benefits" -->
+              <div class="section-advantages__div">
+                <!-- class="benefits-list-div" -->
+                <svg class="section-advantages__svg">
+                  <!-- class="benefits-list-div-svg" -->
                   <use href="./image/symbol-defs-best.svg#icon-antenna" ></use>
                 </svg>
               </div>
-              <h3 class="title">Внимание к деталям</h3>
-              <p class="benefits-clarification">
+              <h3 class="section-advantages__card-title">Внимание к деталям</h3>
+              <!-- class="title" -->
+              <p class="section-advantages__card-text">
+                <!-- class="benefits-clarification" -->
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="list-benefits">
-              <div class="benefits-list-div">
-                <svg class="benefits-list-div-svg">
+            <li class="section-advantages__item">
+              <!-- class="list-benefits" -->
+              <div class="section-advantages__div">
+                <!-- class="benefits-list-div" -->
+                <svg class="section-advantages__svg">
+                  <!-- class="benefits-list-div-svg" -->
                   <use href="./image/symbol-defs-best.svg#icon-clock" ></use>
                 </svg>
               </div>
-              <h3 class="title">Пунктуальность</h3>
-              <p class="benefits-clarification">
+              <h3 class="section-advantages__card-title">Пунктуальность</h3>
+              <!-- class="title" -->
+              <p class="section-advantages__card-text">
+               <!-- class="benefits-clarification> -->
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="list-benefits">
-              <div class="benefits-list-div">
-                <svg class="benefits-list-div-svg">
+            <li class="section-advantages__item">
+              <!-- class="list-benefits" -->
+              <div class="section-advantages__div">
+                <!-- class="benefits-list-div" -->
+                <svg class="section-advantages__svg">
+                  <!-- class="benefits-list-div-svg" -->
                   <use href="./image/symbol-defs-best.svg#icon-diagram" ></use>
                 </svg>
               </div>
-              <h3 class="title">Планирование</h3>
-              <p class="benefits-clarification">
+              <h3 class="section-advantages__card-title">Планирование</h3>
+               <!-- class="title" -->
+              <p class="section-advantages__card-text">
+                <!-- class="benefits-clarification" -->
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="list-benefits">
-              <div class="benefits-list-div">
-                <svg class="benefits-list-div-svg">
+            <li class="section-advantages__item">
+              <!-- class="list-benefits" -->
+              <div class="section-advantages__div">
+                <!-- class="benefits-list-div" -->
+                <svg class="section-advantages__svg">
+                  <!-- class="benefits-list-div-svg" -->
                   <use class="image-top" href="./image/symbol-defs-best.svg#icon-astronaut" ></use>
                 </svg>
               </div>
-              <h3 class="title">Современные технологии</h3>
-              <p class="benefits-clarification">
+              <h3 class="section-advantages__card-title">Современные технологии</h3>
+               <!-- class="title" -->
+              <p class="section-advantages__card-text">
+                <!-- class="benefits-clarification" -->
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -197,95 +250,130 @@
         </div>
       </section>
       <!--чем занимаются-->
-      <section class="section-container-what-we-do centr">
-        <div class="container-what-we-do">
-          <h2 class="what-we-do">Чем мы занимаемся</h2>
-          <ul class="image-first-page list">
-            <li class="img-first">
-              <a class="texte-of-image-work" href=""
-                >
-                <div class="div-text-image"><img
+      <section class="section-our-work">
+        <!-- class="section-container-what-we-do centr" -->
+        <div class="container__section-our-work">
+          <!-- class="container-what-we-do" -->
+          <h2 class="section-our-work__title">Чем мы занимаемся</h2>
+          <!-- class="what-we-do" -->
+          <ul class="section-our-work__list list">
+            <!-- class="image-first-page list" -->
+            <li class="section-our-work__item">
+              <!-- class="img-first" -->
+              <a class="section-our-work__link" href="">
+                <!-- class="texte-of-image-work" -->
+                <div class="section-our-work__div">
+                  <!-- class="div-text-image" -->
+                  <img
                   src="./img/1.jpg"
                   alt="на столе с ноутбуком и планшетом идет разработка кода"
                   width="370"
                   height="294"
               /></div> 
-              <div class="text-of-image-work-p">
-            <p class="text">Десктопные приложения</p>
-          </div>
+              <div class="section-our-work__card-design">
+              <!-- class="text-of-image-work-p" -->
+            <p class="section-our-work-card-design__text">Десктопные приложения</p>
+            <!-- class="text" -->
+                      </div>
         </a>
             </li>
-            <li class="img-first">
-              <a class="texte-of-image-work" href="#">
-                <div class="div-text-image"><img
-                  src="./img/2.jpg"
-                  alt="смартфон в руках на фоне ноутбука и телевизора"
+            <li class="section-our-work__item">
+              <!-- class="img-first" -->
+              <a class="section-our-work__link" href="#">
+              <!-- class="texte-of-image-work" -->
+                <div class="section-our-work__div">
+                  <!-- class="div-text-image" -->
+                  <img src="./img/2.jpg" alt="смартфон в руках на фоне ноутбука и телевизора"
                   width="370"
                   height="294"
               /></div>
-              <div class="text-of-image-work-p">
-            <p class="text">Мобильные приложения</p>
-          </div>
+              <div class="section-our-work__card-design">
+             <!-- class="text-of-image-work-p" -->
+            <p class="section-our-work-card-design__text">Мобильные приложения</p>
+            <!-- class="text" -->
+                      </div>
           </a>
             </li>
-            <li class="img-first">
-              <a class="texte-of-image-work" href="#"
-                >
-                <div class="div-text-image">
-                <img
-                  src="./img/3.jpg"
-                  alt="геометорическая фигура на экране планшета в руках"
+            <li class="section-our-work__item">
+              <!-- class="img-first" -->
+              <a class="section-our-work__link" href="#">
+               <!-- class="texte-of-image-work" -->
+                <div class="section-our-work__div">
+               <!-- class="div-text-image" -->
+                <img src="./img/3.jpg" alt="геометорическая фигура на экране планшета в руках"
                   width="370"
                   height="294"
               /></div>
-              <div class="text-of-image-work-p">
-            <p class="text">Дизайнерские решения</p>
+              <div class="section-our-work__card-design">
+                <!-- class="text-of-image-work-p" -->
+            <p class="section-our-work-card-design__text">Дизайнерские решения</p>
+            <!-- class="text" -->
           </div></a>
             </li>
           </ul>
         </div>
       </section>
       <!-- работники-->
-      <section class="section-comand">
-        <div class="container-comand">
-          <h2 class="xectoin_title">Наша команда</h2>
-          <ul class="comand list centr">
-            <li class="comand-info">
-              <img
-                class="photo-comand"
-                src="img/img-3.jpg"
-                alt="Игорь Демьяненко"
+      <section class="section-our-team">
+        <!-- class="section-comand" -->
+        <div class="container__section-our-team">
+          <!-- class="container-comand" -->
+          <h2 class="section-our-team__title">Наша команда</h2>
+          <!-- class="xectoin_title" -->
+          <ul class="section-our-team__list list centr">
+            <!-- class="comand list centr" -->
+            <li class="section-our-team__item">
+             <!-- class="comand-info" -->
+              <img class="section-our-team__photo" src="img/img-3.jpg" alt="Игорь Демьяненко"
                 width="270"
                 height="368"
               />
-              <div class="spetifikation-komand">
-                <h3 class="name-command">Игорь Демьяненко</h3>
-                <p lang="en" class="spetikatoon-comand">Product Designer</p>
-                <ul class="kontakt-comand-list">
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
-                      <svg class="kontakt-comand-list-item-a-svg">
+              <!-- class="photo-comand" -->
+              <div class="section-our-team__spetifikation">
+                <!-- class="spetifikation-komand" -->
+                <h3 class="section-our-team__title-name" >
+                  <!-- class="name-command" -->
+                  Игорь Демьяненко</h3>
+                <p lang="en" class="section-our-team__text-spetikatoon">Product Designer</p>
+                <!-- class="spetikatoon-comand" -->
+                <ul class="section-our-team__list-contacts">
+                  <!-- class="kontakt-comand-list" -->
+                  <li class="section-our-team__item-contacts">
+                    <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
+                      <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                        <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                    <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
+                      <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                      <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                    <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
+                      <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                      <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                    <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                      <!-- class="kontakt-comand-list-item-a-svg -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -293,42 +381,59 @@
                   </ul>
               </div>
               </li>
-            <li class="comand-info">
+            <li class="section-our-team__item">
+               <!-- class="comand-info" -->
               <img
-                class="photo-comand"
+                class="section-our-team__photo"
                 src="img/img-2.jpg"
                 alt="Ольга Репина"
                 width="270"
                 height="368"
               />
-              <div class="spetifikation-komand">
-                <h3 class="name-command">Ольга Репина</h3>
-                <p lang="en" class="spetikatoon-comand">Frontend Developer</p>
-                <ul class="kontakt-comand-list">
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
-                      <svg class="kontakt-comand-list-item-a-svg">
+               <!-- class="photo-comand" -->
+              <div class="section-our-team__spetifikation">
+                <h3 class="section-our-team__title-name">Ольга Репина</h3>
+                 <!-- class="name-command" -->
+                <p lang="en" class="section-our-team__text-spetikatoon">Frontend Developer</p>
+                <!-- class="spetikatoon-comand" -->
+                <ul class="section-our-team__list-contacts">
+                   <!-- class="kontakt-comand-list" -->
+                  <li class="section-our-team__list-contacts-item">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                      <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                       <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
-                      <svg class="kontakt-comand-list-item-a-svg">
-                        <use href="./image/symbol-defs-kontakts.svg#icon-facebook"></use>
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                       <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
+                   <!-- class="kontakt-comand-list-item-a" -->
+                   <svg class="section-our-team__svg-contacts">
+                      <!-- class="kontakt-comand-list-item-a-svg" -->
+                    <use href="./image/symbol-defs-kontakts.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
+                      <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                       <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -336,42 +441,59 @@
                 </ul>
               </div>
              </li>
-            <li class="comand-info">
+            <li class="section-our-team__item">
+               <!-- class="comand-info" -->
               <img
-                class="photo-comand"
+                class="section-our-team__photo"
                 src="img/img-1.jpg"
                 alt="Николай Тарасов"
                 width="270"
                 height="368"
               />
-              <div class="spetifikation-komand">
-                <h3 class="name-command">Николай Тарасов</h3>
-                <p lang="en" class="spetikatoon-comand">Marketing</p>
-                <ul class="kontakt-comand-list">
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
-                      <svg class="kontakt-comand-list-item-a-svg">
+               <!-- class="photo-comand" -->
+              <div class="section-our-team__spetifikation">
+                <h3 class="section-our-team__title-name">Николай Тарасов</h3>
+                 <!-- class="name-command" -->
+                <p lang="en" class="section-our-team__text-spetikatoon">Marketing</p>
+                <!-- class="spetikatoon-comand" -->
+                <ul class="section-our-team__list-contacts">
+                   <!-- class="kontakt-comand-list" -->
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                       <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                       <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                       <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                      <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -379,42 +501,59 @@
                 </ul>
               </div>
                      </li>
-            <li class="comand-info-a">
+            <li class="section-our-team__item-a">
+              <!-- class="comand-info-a" -->
               <img
-                class="photo-comand"
+                class="section-our-team__photo"
                 src="img/img.jpg"
                 alt="Михаил Ермаков"
                 width="270"
                 height="368"
               />
-              <div class="spetifikation-komand">
-                <h3 class="name-command">Михаил Ермаков</h3>
-                <p lang="en" class="spetikatoon-comand">UI Designer</p>
-                <ul class="kontakt-comand-list">
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
-                      <svg class="kontakt-comand-list-item-a-svg">
+              <!-- class="photo-comand" -->
+              <div class="section-our-team__spetifikation">
+                <h3 class="section-our-team__title-name">Михаил Ермаков</h3>
+                 <!-- class="name-command" -->
+                <p lang="en" class="section-our-team__text-spetikatoon">UI Designer</p>
+                <!-- class="spetikatoon-comand" -->
+                <ul class="section-our-team__list-contacts">
+                     <!-- class="kontakt-comand-list" -->
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                       <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                      <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                       <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="kontakt-comand-list-item">
-                    <a class="kontakt-comand-list-item-a" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
-                      <svg class="kontakt-comand-list-item-a-svg">
+                  <li class="section-our-team__item-contacts">
+                     <!-- class="kontakt-comand-list-item" -->
+                    <a class="section-our-team__link-contacts" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
+                     <!-- class="kontakt-comand-list-item-a" -->
+                      <svg class="section-our-team__svg-contacts">
+                       <!-- class="kontakt-comand-list-item-a-svg" -->
                         <use href="./image/symbol-defs-kontakts.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -426,47 +565,69 @@
         </div>
       </section>
       <section class="section-regular-customers">
+        <!-- class="section-regular-customers" -->
         <div class="container-regular-customers">
-        <h2 class="regular-customers">Постоянные клиенты</h2>
-        <ul class="regular-customers-list">
-          <li class="regular-customers-item">
-            <a class="regular-customers-list-item-a" href="">
-              <svg class="regular-customers-list-item-a-svg">
+          <!-- class="container-regular-customers" -->
+        <h2 class="regular-customers__title">Постоянные клиенты</h2>
+        <!-- class="regular-customers" -->
+        <ul class="regular-customers__list">
+          <!-- class="regular-customers-list" -->
+          <li class="regular-customers__item">
+            <!-- class="regular-customers-item" -->
+            <a class="regular-customers__link" href="#">
+              <!-- class="regular-customers-list-item-a" -->
+              <svg class="regular-customers__svg">
+                <!-- class="regular-customers-list-item-a-svg" -->
                 <use href="./image/symbol-defs-clients.svg#icon-Logo-a"></use>
               </svg>
             </a>
           </li>
-          <li class="regular-customers-item">
-            <a class="regular-customers-list-item-a" href="">
-              <svg class="regular-customers-list-item-a-svg">
+          <li class="regular-customers__item">
+            <!-- class="regular-customers-item" -->
+            <a class="regular-customers__link" href="#">
+              <!-- class="regular-customers-list-item-a" -->
+              <svg class="regular-customers__svg">
+                <!-- class="regular-customers-list-item-a-svg" -->
                 <use href="./image/symbol-defs-clients.svg#icon-Logo-b"></use>
               </svg>
             </a>
           </li>
-          <li class="regular-customers-item">
-            <a class="regular-customers-list-item-a" href="">
-              <svg class="regular-customers-list-item-a-svg">
+          <li class="regular-customers__item">
+            <!-- class="regular-customers-item" -->
+            <a class="regular-customers__link" href="#">
+              <!-- class="regular-customers-list-item-a" -->
+              <svg class="regular-customers__svg">
+                <!-- class="regular-customers-list-item-a-svg" -->
                 <use href="./image/symbol-defs-clients.svg#icon-Logo-c"></use>
               </svg>
             </a>
           </li>
-          <li class="regular-customers-item">
-            <a class="regular-customers-list-item-a" href="">
-              <svg class="regular-customers-list-item-a-svg">
+          <li class="regular-customers__item">
+            <!-- class="regular-customers-item" -->
+            <a class="regular-customers__link" href="#">
+              <!-- class="regular-customers-list-item-a" -->
+              <svg class="regular-customers__svg">
+                <!-- class="regular-customers-list-item-a-svg" -->
                 <use href="./image/symbol-defs-clients.svg#icon-Logo-d"></use>
               </svg>
             </a>
           </li>
-          <li class="regular-customers-item">
-            <a class="regular-customers-list-item-a" href="">
-              <svg class="regular-customers-list-item-a-svg">
+          <li class="regular-customers__item">
+            <!-- class="regular-customers-item" -->
+            <a class="regular-customers__link" href="#">
+              <!-- class="regular-customers-list-item-a" -->
+              <svg class="regular-customers__svg">
+                <!-- class="regular-customers-list-item-a-svg" -->
                 <use href="./image/symbol-defs-clients.svg#icon-Logo-e"></use>
               </svg>
             </a>
           </li>
-          <li class="regular-customers-item">
-            <a class="regular-customers-list-item-a" href="">
-              <svg class="regular-customers-list-item-a-svg">
+          <li class="regular-customers__item">
+            <!-- class="regular-customers-item" -->
+            <a class="regular-customers__link" href="#">
+              <!-- class="regular-customers-list-item-a" -->
+              <svg class="regular-customers__svg">
+                <!-- class="regular-customers-list-item-a-svg" -->
                 <use href="./image/symbol-defs-clients.svg#icon-Logo-f"></use>
               </svg>
             </a>
@@ -476,70 +637,102 @@
       </section>
     </main>
     <footer class="footer">
+      <!-- class="footer" -->
       <div class="container-footer">
-      <div class="footer-adres">
-        <a class="logo-fot" href="./index.html"
-          ><span class="web_color">Web</span
-          ><span class="web_color-b">Studio</span></a
+        <!-- class="container-footer" -->
+      <div class="footer__adres">
+        <!-- class="footer-adres" -->
+        <a class="footer__logo" href="./index.html">
+          <!-- <a class="logo-fot" -->
+          <span class="footer__web-color">Web</span>
+          <!-- <span class="web_color" -->
+          <span class="footer__web-color-b">Studio</span>
+          <!-- <span class="web_color-b" -->
+          </a
         >
-        <address class="adres-foot">
-                    <ul class="footer-ul">
-            <li class="adres-list">
-              <a class="adress" href="г.Киев,пр-тЛесиУкраинки,26"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+        <address class="footer__address">
+          <!-- class="adres-foot" -->
+                    <ul class="footer__list">
+                      <!-- class="footer-ul" -->
+            <li class="footer__item">
+              <!-- class="adres-list" -->
+              <a class="footer__link-adress" href="г.Киев,пр-тЛесиУкраинки,26"
+                >г. Киев, пр-т Леси Украинки, 26</a>
+                <!-- class="adress" -->
             </li>
-            <li class="activ adres-list">
-              <a class="mail" href="info@devstudio.com">info@devstudio.com</a>
+            <li class="activ footer__item">
+              <!-- class="activ adres-list" -->
+              <a class="footer-item__mail" href="info@devstudio.com">info@devstudio.com</a>
+              <!-- class="mail" -->
             </li>
-            <li class="activ">
-              <a class="telephone" href=":tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="footer__item">
+              <!-- class="activ" -->
+              <a class="footer-item__telephone" href=":tel:+380961111111"
+                >+38 096 111 11 11</a>
+                <!-- class="telephone" -->
             </li>
           </ul>
         </address>
       </div>
-      <div class="social-network ">
-        <h2 class="social-network-h2">присоединяйтесь</h2>
-        <ul class="social-network-list">
-          <li class="social-network-list-item">
-            <a class="social-network-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
-              <svg class="social-network-list-item-svg">
+      <div class="footer__social-network">
+        <!-- class="social-network" -->
+        <h2 class="footer__title-social-network">присоединяйтесь</h2>
+        <!-- class="social-network-h2" -->
+        <ul class="footer-social-network__list">
+          <!-- class="social-network-list" -->
+          <li class="footer-social-network__item">
+            <!-- class="social-network-list-item" -->
+            <a class="footer-social-network__link" target="blanc" rel="noopener nofollow" href="https://www.instagram.com/?hl=ru">
+              <!-- class="social-network-list-item-a" -->
+              <svg class="footer-social-network__svg">
+                <!-- class="social-network-list-item-svg" -->
                 <use href="./image/symbol-defs-social-network-dark.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
-          <li class="social-network-list-item">
-            <a class="social-network-list-item-a" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
-              <svg class="social-network-list-item-svg">
+          <li class="footer-social-network__item">
+           <!-- class="social-network-list-item" -->
+            <a class="footer-social-network__link" target="blanc" rel="noopener nofollow" href="https://twitter.com/?lang=ru">
+              <!-- class="social-network-list-item-a" -->
+              <svg class="footer-social-network__svg">
                 <use href="./image/symbol-defs-social-network-dark.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
-          <li class="social-network-list-item">
-            <a class="social-network-list-item-a" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
-              <svg class="social-network-list-item-svg">
+          <li class="footer-social-network__item">
+           <!-- class="social-network-list-item" -->
+            <a class="footer-social-network__link" target="blanc" rel="noopener nofollow" href="https://www.facebook.com/">
+             <!-- class="social-network-list-item-a" -->
+              <svg class="footer-social-network__svg">
                 <use href="./image/symbol-defs-social-network-dark.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
-          <li class="social-network-list-item">
-            <a class="social-network-list-item-a" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
-              <svg class="social-network-list-item-svg">
+          <li class="footer-social-network__item">
+            <!-- class="social-network-list-item" -->
+            <a class="footer-social-network__link" target="blanc" rel="noopener nofollow" href="https://ru.linkedin.com/">
+              <!-- class="social-network-list-item-a" -->
+              <svg class="footer-social-network__svg">
                 <use href="./image/symbol-defs-social-network-dark.svg#icon-linkedin"></use>
               </svg>
             </a>
           </li>
         </ul>
       </div>
-      <div class="subscribe-to-the-newsletter">
-        <h2 class="subscribe-to-the-newsletter-h2">Подпишитесь на рассылку</h2>
-        <form  autocomplete="on"><input class="subscribe-to-the-newsletter-input" type="email" name="mail" id="mail" placeholder="E-mail">
+      <div class="footer__subscribe-to-the-newsletter">
+        <!-- class="subscribe-to-the-newsletter" -->
+        <h2 class="footer__heading-subscribe">Подпишитесь на рассылку</h2>
+        <!-- class="subscribe-to-the-newsletter-h2" -->
+        <form  autocomplete="on">
+          <input class="footer__input-email" type="email" name="mail" id="mail" placeholder="E-mail">
+          <!-- class="subscribe-to-the-newsletter-input" -->
           <label for="mail"> 
-            <button class="subscribe-to-the-newsletter-button" type="button">Подписаться
+            <button class="footer__subscribe-button" type="button">
+              <!-- class="subscribe-to-the-newsletter-button" -->
+              Подписаться
              <svg class="subscribe-to-the-newsletter-svg" width="24px" height="24px">
-               <use href="./image/symbol-defs-button-hover.svg#icon-icon-send-1"></use>
+              <!-- class="subscribe-to-the-newsletter-svg" -->
+              <use href="./image/symbol-defs-button-hover.svg#icon-icon-send-1"></use>
              </svg></button></label></form>
         
       </div>

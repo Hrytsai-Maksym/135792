@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    }
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    } 
+
+html {
+    box-sizing: border-box;
+    }
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    }
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+
+a {
+    text-decoration: none;
+    }
+
+.body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    background: #ffffff;
+    }
+
+ul {
+    list-style: none;
+    }
+
+ul{
+    color: #000;
+    list-style: none;
+    }

@@ -1,0 +1,83 @@
+.section-advantages__hide {
+    display: none;
+    }
+
+.section-advantages {
+    background: #ffffff;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin: 0px;
+    }
+
+.section-advantages__list{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0px; */
+    padding: 0px;
+    flex-wrap: nowrap;
+    }
+
+.section-advantages__item{
+    margin-right: 30px;
+    
+    & :last-child{
+        margin-right: 0px;
+    }
+    }
+
+.section-advantages__div{
+
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color:$backgroun-color-images ;
+    border-radius: 4px;
+    }
+
+.section-advantages__svg{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+    }
+
+.section-advantages__card-title {
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    color: $prymery-text-color;
+    margin-top: 0;
+    margin-bottom: 10px;
+    }
+
+.section-advantages__card-text{
+    color: #757575;
+    margin-right: 30px;
+    width: 270px;
+    height: 75px;
+
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+
+
+
+
+
+
+
