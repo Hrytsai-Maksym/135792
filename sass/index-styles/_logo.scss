@@ -1,15 +1,8 @@
 .header__logo {
-    @media  screen and(min-width: 480px) {
+    @media screen and(min-width:480px) {
         width: 480px;
-        max-width: 767px;
-        }
-    @media  screen and(min-width: 768px) {
-        width: 768px;
-        max-width: 1199px;
-        }
-    @media  screen and(min-width: 1200px) {
-                width: 1200px;
-                }
+        
+    }
     font-style: normal;
     font-family: Raleway;
     font-size: 26px;
@@ -20,23 +13,43 @@
     }
 
 .logo__color {
-    @media  screen and(min-width: 480px) {
+    @media screen and(min-width:480px) {
         width: 480px;
-        }
+        
+    }
     color: #2196f3;
     }
 
     .logo__color-a,
     .web-color-a {
-        @media  screen and(min-width: 480px) {
+        @media screen and(min-width:480px) {
             width: 480px;
-            }
+            
+        }
     color: #000000;
     }
 
 .footer__web-color-b {
-    @media  screen and(min-width: 480px) {
+    @media screen and(min-width:480px) {
         width: 480px;
-        }
+        
+    }
         color: #ffffff;
+      }
+      .nav__hidden{
+        @media screen and(min-width:0px) {
+            max-width: 767px;
+            opacity: 0;
+            background-color: #2196f3;
+        }
+        @media screen and(min-width:768px) {
+            width: 768px;
+            background-color: #222;
+            opacity: 1;
+        }
+        @media screen and(min-width:1000px) {
+            width: 1200px;
+            background-color: aqua;
+            opacity: 1;
+        }
       }
