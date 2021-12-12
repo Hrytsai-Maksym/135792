@@ -21,13 +21,14 @@
     letter-spacing: 0.03em;
 
     @media screen and(min-width:480px) {
-        margin: 20px 124px 60px 124px;
+        // margin: 20px 124px 60px 124px;
+        
     }
     
 }
 
 .footer__item{
-    margin-bottom: 9px;
+    margin-bottom: 8px;
     &:active,
     &:focus,
     &:hover{
@@ -61,6 +62,12 @@
     &:last-child{
     margin: 0px;
     }
+    @media screen and(min-width:480px){
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     }
 
 .footer__link-adress{
@@ -92,7 +99,12 @@
     margin-left: 70px;
     padding: 0px ;
     @media screen and(min-width:480px){
-        margin: 60px 137px;
+        margin: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 60px;
+      margin-top: 60px;
 
     }
 }
@@ -168,6 +180,9 @@
 
     @media screen and(min-width:480px){
         margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -184,7 +199,7 @@
     color: #FFFFFF;
     margin-bottom: 20px;
     @media screen and(min-width:480px){
-        margin-left: 131px;
+        // margin-left: 131px;
     }
 }
 
@@ -201,13 +216,12 @@
     text-decoration: #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    margin-right: 12px;
-    padding-left: 12px;
+    // margin-right: 12px;
+    // padding-left: 12px;
     color: $backgroun-color-images;
     @media screen and(min-width:480px){
         width: 450px; 
-        margin-left: 15px;
-        margin-right: 15px;
+            //    margin-right: 15px;
         margin-bottom: 20px;
 
     }
@@ -234,9 +248,14 @@
         border-radius: 4px;
         padding: 10px 62px 10px 29px;
         @media screen and(min-width:480px){
-            margin-left: 140px;
+            // margin-left: 140px;
+        //    margin: 20px 140px 60px 140px;
+        margin-left: 30%;
         }
-        }
+    }
+
+
+
 
 .subscribe-to-the-newsletter__svg{
     position: absolute;
