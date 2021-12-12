@@ -1,8 +1,10 @@
 .header{
+    
     background: #ffffff;
     color: $prymery-text-color;
     @media screen and(min-width:480px) {
         width: 480px;
+        position: relative;
     }
 }
 
@@ -67,6 +69,13 @@ display: none;
        display: flex;
 }
 }
-
-// icon-menu
-// icon-closet
+.mobile-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;  
+    background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+text-align: center;
+height: 10px;
+}

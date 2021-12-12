@@ -36,12 +36,14 @@
             <button class="header__menu-button is-open" type="button" >
               <svg class="header__menu-button-svg"
               aria-label="мобильное меню"
+              aria-controls="menu-container"
               aria-expanded="false"
               >
                 <use class="icon-menu" href="./image/Botton-mobile-menu.svg#icon-menu" width="40px", height="40px"></use>
                 <use class="icon-closet" href="./image/Botton-mobile-menu.svg#icon-close"width="40px", height="40px"></use>
               </svg>
             </button>
+            <div class="mobile-menu" id="menu-container" > vМОБИЛЬНОЕ МЕНЮ</div>
           </div>
             <div class="nav__hidden">
              <ul class="header__navigation-list list">
@@ -108,94 +110,27 @@
             <button data-modal-open class="section-hero__button" type="button">Заказать услугу</button>
             <!-- class="button" -->
           </div>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal containre-backdrop">
-              <button data-modal-close type="button-closet" class="button-closet">
-              <svg class="closet-svg">
-                <use href="./image/symbol-defs-closet.svg#icon-close"></use>
-              </svg></button>
-                            <!-- Модальное окно -->
-              <div class="modal-div">
-                <h2 class="modal__h2">Оставьте свои данные, мы вам перезвоним</h2>
-                <!-- class="modal-h2" -->
-                <form autocomplete="on">
-                
-
-                <div class="form-grup-name">
-                  <!-- class="form-grup-name" -->
-                  <label class="modal-name" 
-               > <span class="span-label" >Имя</span><input  type="text" 
-               class="input-modal"
-               name="name" 
-                            placeholder=" " 
-                               autofocus>
-                <svg class="maodal-svg" width="12px" height="12px">
-                  <use href="./image/symbol-defs-modal.svg#icon-name"></use>
-                </svg></label>
-               
-              </div>
-                            
-               <div class="form-grup-phone">
-                 <label class="modal-name" 
-              > <span class="span-label" >Телефон</span><input  type="tel"
-              class="input-modal"
-                             name="telephone"
-               id="tel" placeholder=" ">
-               <svg class="maodal-svg" width="13px" height="13px">
-                 <use href="./image/symbol-defs-modal.svg#icon-phone"></use>
-               </svg>         </label>
-              
-              
-              </div>
-
-               <div class="form-grup-mail">
-                 <label class="modal-name"
-                > <span class="span-label" >Почта</span><input  type="email" name="mail" 
-                   class="input-modal"
-                 id="mail" placeholder="">
-                 <svg class="maodal-svg" width="15px" height="12px">
-                <use href="./image/symbol-defs-modal.svg#icon-mail"></use>
-                </svg></label>
-                             </div>
-
-               <div class="form-group-coments">
-                 <label class="modal-name" 
-               for="coment"> <span class="span-label" >Коментарий</span></label>
-                <textarea name="coment"class="input-modal-coment"id="coment"placeholder="Введите-текст"></textarea></div></div>
-
-               <div class="form-grup-checkbox"> 
-                <label class="modal-name-checkbox rel" 
-                for="politika">
-                <input class="checkbox-modal" type="checkbox" 
-                name="" id="politika">
-                Соглашаюсь с рассылкой и принимаю
-                <a href="#"><Span class="contract"> Условия договора</Span></a>
-                <span class="span-checkbox"></span>
-              </label>
-              </div>
-
-               <button class="modal-button-send-form" type="submit">Отправить</button>
-              </form></div>
+         
             </div>
           </div>
         </section>
       </div>
       <!--преимущиства-->
           <section class="section-advantages">
-        <!-- class="section" -->
+        
         <div class="container__section-advantages">
-          <!-- class="container-benefits" -->
+          
           <h2 class="section-advantages__hide">преимущества</h2>
-          <!-- class="hide" -->
+         
           <!--скрыть заголовок-->
           <ul class="section-advantages__list list">
-            <!-- class="Benefits-list list" -->
+          
             <li class="section-advantages__item">
-              <!-- class="list-benefits" -->
+              
               <div class="section-advantages__div">
-                <!-- class="benefits-list-div" -->
-                <svg class="section-advantages__svg">
-                  <!-- class="benefits-list-div-svg" -->
+               
+                <svg class="section-advantages__svg" width="70px" height="70px">
+                 
                   <use href="./image/symbol-defs-best.svg#icon-antenna" ></use>
                 </svg>
               </div>
@@ -211,7 +146,7 @@
               <!-- class="list-benefits" -->
               <div class="section-advantages__div">
                 <!-- class="benefits-list-div" -->
-                <svg class="section-advantages__svg">
+                <svg class="section-advantages__svg" width="70px" height="70px">
                   <!-- class="benefits-list-div-svg" -->
                   <use href="./image/symbol-defs-best.svg#icon-clock" ></use>
                 </svg>
@@ -228,7 +163,7 @@
               <!-- class="list-benefits" -->
               <div class="section-advantages__div">
                 <!-- class="benefits-list-div" -->
-                <svg class="section-advantages__svg">
+                <svg class="section-advantages__svg" width="70px" height="70px">
                   <!-- class="benefits-list-div-svg" -->
                   <use href="./image/symbol-defs-best.svg#icon-diagram" ></use>
                 </svg>
@@ -245,7 +180,7 @@
               <!-- class="list-benefits" -->
               <div class="section-advantages__div">
                 <!-- class="benefits-list-div" -->
-                <svg class="section-advantages__svg">
+                <svg class="section-advantages__svg" width="70px" height="70px">
                   <!-- class="benefits-list-div-svg" -->
                   <use class="image-top" href="./image/symbol-defs-best.svg#icon-astronaut" ></use>
                 </svg>
@@ -263,19 +198,19 @@
       </section>
       <!--чем занимаются-->
       <section class="section-our-work">
-        <!-- class="section-container-what-we-do centr" -->
+        
         <div class="container__section-our-work">
-          <!-- class="container-what-we-do" -->
+   
           <h2 class="section-our-work__title">Чем мы занимаемся</h2>
-          <!-- class="what-we-do" -->
+         
           <ul class="section-our-work__list list">
-            <!-- class="image-first-page list" -->
+           
             <li class="section-our-work__item">
-              <!-- class="img-first" -->
+          
               <a class="section-our-work__link" href="">
-                <!-- class="texte-of-image-work" -->
+              
                 <div class="section-our-work__div">
-                  <!-- class="div-text-image" -->
+              
                   <img
                   src="./img/1.jpg"
                   alt="на столе с ноутбуком и планшетом идет разработка кода"
@@ -283,35 +218,35 @@
                   height="294"
               /></div> 
               <div class="section-our-work__card-design">
-              <!-- class="text-of-image-work-p" -->
+            
             <p class="section-our-work-card-design__text">Десктопные приложения</p>
-            <!-- class="text" -->
+          
                       </div>
         </a>
             </li>
             <li class="section-our-work__item">
-              <!-- class="img-first" -->
+            
               <a class="section-our-work__link" href="#">
-              <!-- class="texte-of-image-work" -->
+            
                 <div class="section-our-work__div">
-                  <!-- class="div-text-image" -->
+          
                   <img src="./img/2.jpg" alt="смартфон в руках на фоне ноутбука и телевизора"
                   width="370"
                   height="294"
               /></div>
               <div class="section-our-work__card-design">
-             <!-- class="text-of-image-work-p" -->
+            
             <p class="section-our-work-card-design__text">Мобильные приложения</p>
-            <!-- class="text" -->
+         
                       </div>
           </a>
             </li>
             <li class="section-our-work__item">
-              <!-- class="img-first" -->
+            
               <a class="section-our-work__link" href="#">
-               <!-- class="texte-of-image-work" -->
+         
                 <div class="section-our-work__div">
-               <!-- class="div-text-image" -->
+    
                 <img src="./img/3.jpg" alt="геометорическая фигура на экране планшета в руках"
                   width="370"
                   height="294"
@@ -780,6 +715,74 @@
         </ul> -->
       
     </div> </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal containre-backdrop">
+        <button data-modal-close type="button-closet" class="button-closet">
+        <svg class="closet-svg">
+          <use href="./image/symbol-defs-closet.svg#icon-close"></use>
+        </svg></button>
+                      <!-- Модальное окно -->
+        <div class="modal-div">
+          <h2 class="modal__h2">Оставьте свои данные, мы вам перезвоним</h2>
+          <!-- class="modal-h2" -->
+          <form autocomplete="on">
+          
+
+          <div class="form-grup-name">
+            <!-- class="form-grup-name" -->
+            <label class="modal-name" 
+         > <span class="span-label" >Имя</span><input  type="text" 
+         class="input-modal"
+         name="name" 
+                      placeholder=" " 
+                         autofocus>
+          <svg class="maodal-svg" width="12px" height="12px">
+            <use href="./image/symbol-defs-modal.svg#icon-name"></use>
+          </svg></label>
+         
+        </div>
+                      
+         <div class="form-grup-phone">
+           <label class="modal-name" 
+        > <span class="span-label" >Телефон</span><input  type="tel"
+        class="input-modal"
+                       name="telephone"
+         id="tel" placeholder=" ">
+         <svg class="maodal-svg" width="13px" height="13px">
+           <use href="./image/symbol-defs-modal.svg#icon-phone"></use>
+         </svg>         </label>
+        
+        
+        </div>
+
+         <div class="form-grup-mail">
+           <label class="modal-name"
+          > <span class="span-label" >Почта</span><input  type="email" name="mail" 
+             class="input-modal"
+           id="mail" placeholder="">
+           <svg class="maodal-svg" width="15px" height="12px">
+          <use href="./image/symbol-defs-modal.svg#icon-mail"></use>
+          </svg></label>
+                       </div>
+
+         <div class="form-group-coments">
+           <label class="modal-name" 
+         for="coment"> <span class="span-label" >Коментарий</span></label>
+          <textarea name="coment"class="input-modal-coment"id="coment"placeholder="Введите-текст"></textarea></div></div>
+
+         <div class="form-grup-checkbox"> 
+          <label class="modal-name-checkbox rel" 
+          for="politika">
+          <input class="checkbox-modal" type="checkbox" 
+          name="" id="politika">
+          Соглашаюсь с рассылкой и принимаю
+          <a href="#"><Span class="contract"> Условия договора</Span></a>
+          <span class="span-checkbox"></span>
+        </label>
+        </div>
+
+         <button class="modal-button-send-form" type="submit">Отправить</button>
+        </form></div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
