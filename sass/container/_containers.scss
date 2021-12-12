@@ -1,7 +1,234 @@
 .container-header {
-    // width: 1200px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin: 0 auto;
+    @media screen and(min-width:480px) {
+      width: 480px;
+    }
+    @media screen and(min-width:768px) {
+      width: 768px;
+    }
+    @media screen and(min-width:1200px) {
+      width: 1200px;
+    }
+  }
+
+.container__section-hero {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  // margin-left: auto;
+  // margin-right: auto;
+    margin: 0 auto;
+    @media screen and(min-width:480px) {
+      width: 480px;
+    }
+    @media screen and(min-width:768px) {
+      width: 768px;
+    }
+    @media screen and(min-width:1200px) {
+      width: 1200px;
+    }
+}
+
+.container__section-advantages {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  // margin-left: auto;
+  // margin-right: auto;
+  margin: 0 auto;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.section-our-work {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  // margin-left: auto;
+  // margin-right: auto;
+  margin: 0 auto;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.container__section-our-team {
+  padding-left: 15px;
+  padding-right: 15px;
+  // margin-left: auto;
+  // margin-right: auto;
+  margin: 0px auto;
+  padding: 0px;
+  width: 100%;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.container-filter-button {
+  padding-left: 15px;
+  padding-right: 15px;
+  // margin-left: auto;
+  // margin-right: auto;
+  margin: 0 auto;
+  width: 100%;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.container-cartridge {
+  padding-left: 15px;
+  width: 100%;
+  margin-left: auto;
+  padding-right: 15px;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin: 0 auto;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+    flex-wrap: nowrap;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.container__section-hero {
+  padding-left: 15px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: auto;
+  padding-right: 15px;
+  margin-right: auto;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+   
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.container-footer {
+  padding-left: 15px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left:  auto;
+  padding-right: 15px;
+  display: flex;
+  margin-right:  auto;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+   display: block;
+   
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.container__section-our-team{
+  padding-left: 15px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: auto;
+  padding-right: 15px;
+  margin-right: auto;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.container-footer-port {
+  padding-left: 15px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: auto;
+  padding-right: 15px;
+  margin-right: auto;
+
+  @media screen and(min-width:480px) {
+    width: 480px;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.container-regular-customers{
+  padding-left: 15px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: auto;
+  padding-right: 15px;
+  margin-right: auto;
+  padding: 0px;
+
+    @media screen and(min-width:480px) {
+    width: 480px;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 1200px;
+  }
+
   }
