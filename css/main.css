@@ -1445,6 +1445,124 @@ p {
   }
 }
 
+.section__filter-button {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.filter-button__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+@media screen and (min-width: 480px) {
+  .filter-button__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+.filter-button__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  margin-left: 8px;
+  padding: 0px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-button__item:hover, .filter-button__item:focus, .filter-button__item:active {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+@media screen and (min-width: 480px) {
+  .filter-button__item {
+    margin-bottom: 15px;
+    margin-right: 8px;
+  }
+}
+
+.filter__button:last-child {
+  margin-right: 0px;
+}
+
+.filter__button :hover,
+.filter__button :active,
+.filter__button :focus {
+  color: #ffffff;
+  background-color: var(--button-background);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
+}
+
+.filter__button:hover, .filter__button:focus, .filter__button:active {
+  color: #ffffff;
+  background-color: #2196f3;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter__button :last-child {
+  margin-right: 0px;
+}
+
+.border {
+  border: none;
+}
+
+.header_portfolio {
+  background: #ffffff;
+  color: #212121;
+  border-bottom: 1px solid  #ECECEC;
+}
+
+.header__hide {
+  display: none;
+}
+
+.image-fone-portfolio {
+  position: relative;
+  /* overflow: hidden; */
+}
+
 .containre-backdrop {
   margin: 40px;
 }
@@ -1893,5 +2011,108 @@ textarea {
   border-color: #2196f3;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.section__filter-button {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.filter-button__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+@media screen and (min-width: 480px) {
+  .filter-button__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+.filter-button__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  margin-left: 8px;
+  padding: 0px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-button__item:hover, .filter-button__item:focus, .filter-button__item:active {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+@media screen and (min-width: 480px) {
+  .filter-button__item {
+    margin-bottom: 15px;
+    margin-right: 8px;
+  }
+}
+
+.filter__button:last-child {
+  margin-right: 0px;
+}
+
+.filter__button :hover,
+.filter__button :active,
+.filter__button :focus {
+  color: #ffffff;
+  background-color: var(--button-background);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
+}
+
+.filter__button:hover, .filter__button:focus, .filter__button:active {
+  color: #ffffff;
+  background-color: #2196f3;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter__button :last-child {
+  margin-right: 0px;
+}
+
+.border {
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */

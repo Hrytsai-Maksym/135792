@@ -33,42 +33,64 @@
           <span class="logo__color">Web</span>
           <!-- class="web_color" -->
           <span class="logo__color-a">Studio</span></a>
-          <!-- class="web_color-a -->
-          <ul class="header__navigation-list list">
+          <button class="header__menu-button is-open" type="button" >
+            <svg class="header__menu-button-svg"
+            aria-label="мобильное меню"
+            aria-controls="menu-container"
+            aria-expanded="false"
+            >
+              <use class="icon-menu" href="./image/Botton-mobile-menu.svg#icon-menu" width="40px", height="40px"></use>
+              <use class="icon-closet" href="./image/Botton-mobile-menu.svg#icon-close"width="40px", height="40px"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu" id="menu-container" > vМОБИЛЬНОЕ МЕНЮ</div>
+        </div>
+          <div class="nav__hidden">
+           <ul class="header__navigation-list list">
             <!-- class="navig_sait list" -->
-            <li class="navigation-list__item"><a href="./index.html">Студия</a></li>
-            <!-- class="head" -->
-            <li class="navigation-list__item border-a "><a href="./portfolio.html" class="navig-sait current">Портфолио</a></li>
-            <!-- class="head border-b "><" -->
-            <li class="navigation-list__item"><a href="">Контакты</a></li>
-            <!-- class="head" -->
-          </ul>
-
-          <ul class="header-contakts__list list">
-            <!-- class="contakts list" -->
-            <div class="contakts__wrapper">
-              <!-- class="mail-phone" -->
+          <li class="navigation-list__item border-a">
+            <!-- class="head border-a" -->
+            <a href="./index.html" class="navigation-list__link current">Студия</a>
+            <!-- class="navig-sait current" -->
+          </li>
+          <li class="navigation-list__item ">
+            <!-- class="head " -->
+            <a href="./portfolio.html" class="navigation-list__link">Портфолио</a>
+          <!-- class="navig-sait" -->
+          </li>
+          <li class="navigation-list__item">
+            <!-- class="head " -->
+            <a href="#" class="navigation-list__link">Контакты</a>
+          <!-- class="navig-sait" -->
+          </li>
+        </ul>
+      
+        <ul class="header-contakts__list list">
+          <!-- class="contakts list" -->
+          <div class="contakts__wrapper">
+            <!-- class="mail-phone" -->
+          <li class="header-contakts__contakt-item">
+            <!-- class="contakt" -->
+            <a  href="info@devstudio.com">
+              <svg class="head-svg-mail">
+                <!-- class="head-svg-mail" -->
+                <use href="./image/symbol-defs-phone-mail.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a>
+          </li></div>
+          <div class="contakts__wrapper">
+            <!-- class="mail-phone" -->
             <li class="header-contakts__contakt-item">
               <!-- class="contakt" -->
-              <a  href="info@devstudio.com">
-                <svg class="head-svg-mail">
-                  <!-- class="head-svg-mail" -->
-                  <use href="./image/symbol-defs-phone-mail.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com</a>
-            </li></div>
-            <div class="contakts__wrapper">
-              <!-- class="mail-phone" -->
-              <li  class="header-contakts__contakt-item">
-                <!-- class="contakt" -->
-              <a href=":tel:+380961111111">
-                <svg class="head-svg-phone">
-                  <!-- class="head-svg-phone" -->
-                  <use href="./image/symbol-defs-phone-mail.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a>
-            </li></div>
-          </ul>
+            <a href=":tel:+380961111111">
+              <svg class="head-svg-phone">
+                <!-- class="head-svg-phone" -->
+                <use href="./image/symbol-defs-phone-mail.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a>
+          </li></div>
+        </ul>
+      </div>
       </nav>
     </div>
     </header>
