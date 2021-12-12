@@ -25,13 +25,16 @@
 
 .section-advantages__item{
     margin-right: 30px;
-            & :last-child{
-                margin-right: 0px;
-                }
-                @media screen and(min-width:480px) {
-                    margin-right: 0px;
-                }
-                }
+    & :last-child{
+    margin-right: 0px;
+    }
+    @media screen and(min-width:480px) {
+        margin-right: 0px;
+        width: 100%;
+    }
+}
+
+
 
 .section-advantages__div{
     justify-content: center;
@@ -47,7 +50,7 @@
         margin-right: 0px;
         width: 100%;
         // margin-left: 15px;
-        margin-right: 15px;
+        // margin-right: 15px;
     }
     }
 
@@ -75,14 +78,13 @@
     margin-bottom: 10px;
 
     @media screen and(min-width:480px){
-        width: 480px;
-    font-weight: bold;
+        font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+width: 100%;
 color: #212121;
 }
 }
@@ -98,15 +100,13 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #757575;
     @media screen and(min-width:480px){
-        width: 480px;
+        width: 100%;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;}
-    margin-right: 15px;
-    margin-left: 15px;
-}
+    }
 
 p {
     margin-bottom: 0;
