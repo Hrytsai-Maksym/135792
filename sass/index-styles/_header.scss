@@ -4,7 +4,7 @@
     color: $prymery-text-color;
     @media screen and(min-width:480px) {
         width: 480px;
-        position: relative;
+        // position: relative;
     }
 }
 
@@ -16,6 +16,11 @@
 }
 
 .header__menu-button{
+    @media screen and(min-width:480px) {
+        position: absolute;
+        top: 0;
+        right: 0 ;
+    
     display: inline-flex;
     border: 0;
     width: 40px;
@@ -28,7 +33,7 @@
       & :focus,
       & :active{
           fill: $accent-color ;}
-}
+}}
  
 .header__menu-button .icon-closet{
 display: none;
