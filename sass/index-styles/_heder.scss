@@ -1,0 +1,13 @@
+.section__heder{
+    width: 100%;
+    height: 98%;
+    border-color: black;
+    @media screen and(min-width:320px) {
+        width: 100%;
+        height: 98%;
+        background: #FFB8CA;
+    }
+    @media screen and(min-width:1200px){
+        background: #FFB8CA;
+    }
+}
